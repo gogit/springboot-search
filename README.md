@@ -1,16 +1,13 @@
+https://medium.com/@pradeep_thomas/domain-search-using-spring-boot-hibernate-and-a-single-microservice-9b2d8dbcdd7
+
 ## Building it
 
 Clone the repo and build it using
 
-persist$ mvn clean package
+search$ mvn clean package
 
 ## Running the microservice
 
-persist$ java -jar target/persist-0.0.1-SNAPSHOT.jar
+search$ java -jar target/search-0.0.1-SNAPSHOT.jar
 
-## Persisting the object graph
-
-HTTP POST
-
-http://localhost:8083/api/persist
 
